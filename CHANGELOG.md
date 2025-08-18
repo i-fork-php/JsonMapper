@@ -8,6 +8,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Include PHP 8.4 in build matrix [PR#187](https://github.com/JsonMapper/JsonMapper/pull/187)
 
+## [2.25.1] - 2025-05-26
+### Fixed
+- Nullable union property with null value cannot be mapped [PR#200](https://github.com/JsonMapper/JsonMapper/pull/200)
+
+## [2.25.0] - 2025-04-29
+### Fixed
+- Replace docblock type parsing with reflection docblock library. [PR#199](https://github.com/JsonMapper/JsonMapper/pull/199)
+### Removed
+- Support for PHP 7.1, 7.2 and 7.3 has been removed. [PR#197](https://github.com/JsonMapper/JsonMapper/pull/197)
+
+## [2.24.0] - 2025-04-08
+### Added
+- Add support list and array<TKey, TValue> in constructor middleware [PR#194](https://github.com/JsonMapper/JsonMapper/pull/194)
+
+## [2.23.0] - 2025-04-08
+### Added
+- Include PHP 8.4 in build matrix [PR#187](https://github.com/JsonMapper/JsonMapper/pull/187)
+- Add support for list<T> and array<TKey, TValue> from DocBlocks [PR#193](https://github.com/JsonMapper/JsonMapper/pull/193)
+
 ## [2.22.3] - 2025-02-03
 ### Fixed
 - Fix implicit null deprecations [PR#189](https://github.com/JsonMapper/JsonMapper/pull/189)
